@@ -27,7 +27,7 @@ public class LeerDato {
                     p1.setX(Float.parseFloat(entrada));
                     entrada =JOptionPane.showInputDialog(null,"Ingrese el valor de y para escalar");
                     p1.setY(Float.parseFloat(entrada));
-                    proceso.trasladar(p1);
+                    proceso.escalar(p1);
                     break;
                 default:
                     JOptionPane.showInputDialog(null,"opcion no valida elija una opcion del menu");
